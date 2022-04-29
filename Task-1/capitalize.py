@@ -25,5 +25,5 @@ class ETL:
         self.reader()
 
 if __name__ == '__main__':
-    etl = ETL('Task-1/Input_dir/input.txt', 'Task-1/output_dir/output.txt')
+    etl = ETL('Task-1/Input_dir/input.txt', 'Task-1/output_dir/capitalize.txt')
     etl.run()
